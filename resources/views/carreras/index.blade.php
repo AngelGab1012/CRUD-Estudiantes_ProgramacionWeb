@@ -21,7 +21,7 @@
     </div>
 
     <div class="mx-30 mb-20">
-        <table  class="w-full table table-fixed border-3 border-[#E38B29] p-5 shadow-2xl 
+        <table  class="w-full table table-auto border-3 border-[#E38B29] p-5 shadow-2xl 
         shadow-[#F1A661]/50">
 
             <thead class="bg-[#FFD8A9]">
