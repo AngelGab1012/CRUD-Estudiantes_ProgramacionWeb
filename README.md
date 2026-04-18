@@ -7,6 +7,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Datos del Estudinte
+
+- **Nombre completo: Angel Gabriel Palacios Medina**  
+- **Carrera: Ing. TICs**  
+- **Grupo: AEB1055 TC1**  
+- **Correo institucional: 23151226@aguascalientes.tecnm.mx** 
+
+## Funcionamiento del Progrma
+
+Al ejecutar este programa se mostrara una pantalla de inicio en la cual se le dará las dos opciones para visualizar los **CRUD** disponibles:
+
+- **Estudiantes**
+- **Carreras**
+
+Al dar click en alguna de las opciones anteriores el programa los redireccionara a la pagina principal del **CRUD** seleccionado. En esta se podrán visualizar los datos registrados en una **tabla** con sus respectivos campos que la componen, también se proporciona una columna con dos opciones:  
+
+- **Editar**
+- **Eliminar**
+
+y además, se muestra un botón para **agregar** un registro nuevo.
+
+Al interactuar con la opción de **agregar** se redireccionara a una pagina en la cual tendrá que ingresar los datos necesarios para llenar el **formulario** y una vez ingresados los datos, se da click en el botón de **guardar**, lo cual hara que los datos se guarden en la **tabla** y nos redireccionara a la pagina principal de esta, donde se podrá observar un mensaje de **éxito** y se vera reflejado en el contenido de la **tabla**. En caso de que exista algún **error** al ingresar los datos se mostrara de color **rojo** los elementos en los cuales se tiene que verificar lo ingresado.
+
+Al interactuar con la opción de **Editar** se redireccionará a una pagina idéntica a la pagina donde se pueden hacer registros, solo que **se muestran los contenidos de los campos del registro correspondiente**. Una vez que se termine de editar el registro, se da click en el botón de **guardar**, lo cual hara que los datos se guarden en la **tabla** y nos redireccionara a la pagina principal de esta, donde se podrá observar un mensaje de **éxito** y se vera reflejado en el contenido de la **tabla**. En caso de que exista algún **error** al ingresar los datos se mostrara de color **rojo** los elementos en los cuales se tiene que verificar lo ingresado.
+
+Por ultimo, al interactuar con la opción de **Eliminar** aparecerá un mensaje en pantalla, el cual pedirá una **confirmación** para la **eliminación del registro**. Al confirmar, se mostrara otro mensaje que **confirma la eliminación del registro** y se vera reflejado el cambio en la **tabla.**
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
